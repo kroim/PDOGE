@@ -11,28 +11,28 @@ library IterableMapping {
         mapping(address => bool) inserted;
     }
 
-    function get(Map storage map, address key) public view returns (uint) {
+    function get(Map storage map, address key) internal view returns (uint) {
         return map.values[key];
     }
 
-    function getIndexOfKey(Map storage map, address key) public view returns (int) {
+    function getIndexOfKey(Map storage map, address key) internal view returns (int) {
         if(!map.inserted[key]) {
             return -1;
         }
         return int(map.indexOf[key]);
     }
 
-    function getKeyAtIndex(Map storage map, uint index) public view returns (address) {
+    function getKeyAtIndex(Map storage map, uint index) internal view returns (address) {
         return map.keys[index];
     }
 
 
 
-    function size(Map storage map) public view returns (uint) {
+    function size(Map storage map) internal view returns (uint) {
         return map.keys.length;
     }
 
-    function set(Map storage map, address key, uint val) public {
+    function set(Map storage map, address key, uint val) internal {
         if (map.inserted[key]) {
             map.values[key] = val;
         } else {
@@ -43,7 +43,7 @@ library IterableMapping {
         }
     }
 
-    function remove(Map storage map, address key) public {
+    function remove(Map storage map, address key) internal {
         if (!map.inserted[key]) {
             return;
         }
