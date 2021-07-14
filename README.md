@@ -11,3 +11,13 @@ Can we fork this? change the % distribution to:  12% Tax,  7% to purchase Doge, 
 Marketing Fund which is 1,5% can be used in extreme circumstances to correct market volatility
 
 PIZZA DOGE (PDOGE)
+
+- buyBackWallet
+- dividendTracker // deploy PDOGEDividendTracker and replace the address
+- presaleAddress
+
+whitelistDxSale : presale address and dividendTracker address
+
+## addresses
+PDOGEDividendTracker: [0x08506Ef54904918b4c75887Bc2f090C7c1280C5b](https://bscscan.com/address/0x08506Ef54904918b4c75887Bc2f090C7c1280C5b#contracts)
+PDOGE: [0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03](https://bscscan.com/address/0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03#contracts)
