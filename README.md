@@ -19,5 +19,5 @@ PIZZA DOGE (PDOGE)
 whitelistDxSale : presale address and dividendTracker address
 
 ## addresses
-PDOGEDividendTracker: [0x08506Ef54904918b4c75887Bc2f090C7c1280C5b](https://bscscan.com/address/0x08506Ef54904918b4c75887Bc2f090C7c1280C5b#contracts)
-PDOGE: [0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03](https://bscscan.com/address/0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03#contracts)
+- PDOGEDividendTracker: [0x08506Ef54904918b4c75887Bc2f090C7c1280C5b](https://bscscan.com/address/0x08506Ef54904918b4c75887Bc2f090C7c1280C5b#contracts)
+- PDOGE: [0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03](https://bscscan.com/address/0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03#contracts)
