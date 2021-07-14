@@ -72,7 +72,7 @@ module.exports = {
           enabled: true, // Default: false
           runs: 200     // Default: 200
         },
-        evmVersion: "istanbul"
+        // evmVersion: "istanbul"
       }
     }
   },
