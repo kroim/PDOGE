@@ -21,3 +21,6 @@ whitelistDxSale : presale address and dividendTracker address
 ## addresses
 - PDOGEDividendTracker: [0x08506Ef54904918b4c75887Bc2f090C7c1280C5b](https://bscscan.com/address/0x08506Ef54904918b4c75887Bc2f090C7c1280C5b#contracts)
 - PDOGE: [0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03](https://bscscan.com/address/0xf661A2b79E05f2D8c59Ab1D119AE8624E97B9c03#contracts)
+## redeploy
+- PDOGEDividendTracker: [0x5b083288a1f8cd18674212dD77CFE6352A3Aa2e8](https://bscscan.com/address/0x5b083288a1f8cd18674212dD77CFE6352A3Aa2e8#contracts)
+- PDOGE: [0x94Bf537b2f9ae9023f3220bFeFF49aDee1225e0A](https://bscscan.com/address/0x94Bf537b2f9ae9023f3220bFeFF49aDee1225e0A#contracts)
